@@ -1,0 +1,641 @@
+.homebox {
+  width: 100%;
+  height: 540vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.homebox__col1 {
+  width: 100%;
+  height: 100vh;
+}
+
+.homebox__col1__sec {
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+.homebox__col1__sec ul {
+  list-style: none;
+  position: relative;
+  height: 100%;
+}
+
+.homebox__col1__sec li {
+  list-style: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+
+  opacity: 0;
+  animation: fade 40s infinite;
+}
+
+.homebox__col1__sec__b {
+  width: 100%;
+  height: 100%;
+}
+
+.homebox__col1__sec__b__a1 {
+  width: 100%;
+  height: 0%;
+}
+
+.homebox__col1__sec__b__a1 img {
+  width: 100%;
+  height: 100vh;
+}
+
+.homebox__col1__sec__b__a2 {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.homebox__col1__sec__b__a2__c1 {
+  width: 100%;
+  height: 20%;
+  top: 0px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0px 25px;
+  background: none;
+}
+
+.homebox__col1__sec__b__a2__c1__text {
+  width: 10%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.homebox__col1__sec__b__a2__c1__text p {
+  font-size: 14px;
+  color: #444;
+}
+
+.homebox__col1__sec__b__a2__c1__text p:hover {
+  transform: translate3d(0, -10px, 22px);
+  color: #ff0266;
+}
+
+.homebox__col1__sec__b__a2__c1__title {
+  width: 15%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.homebox__col1__sec__b__a2__c1__title p {
+  font-size: 46px;
+  color: #444;
+  font-family: 'PT Serif', serif;
+}
+
+.homebox__col1__sec__b__a2__c1__title p:hover {
+  transform: translate3d(0, -10px, 22px);
+  color: #ff0266;
+}
+
+.homebox__col1__sec__b__a2__c2 {
+  width: 100%;
+  height: 80%;
+
+  background: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homebox__col1__sec__b__a2__c2__top1 {
+  width: 68px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 3px;
+
+  background-color: #000;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  box-shadow: 0.3px 0.3px 0.3px rgb(212, 212, 212);
+}
+
+.homebox__col1__sec__b__a2__c2__box1 {
+  width: 68px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fff;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  box-shadow: 0.6px 0.6px 1px rgb(212, 212, 212);
+}
+
+.homebox__col1__sec__b__a2__c2__box2 {
+  width: 68px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fff;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  box-shadow: 0.6px 0.6px 1px rgb(212, 212, 212);
+}
+
+.homebox__col1__sec__b__a2__c2__box3 {
+  width: 68px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fff;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  box-shadow: 0.6px 0.6px 1px rgb(212, 212, 212);
+}
+
+.homebox__col1__sec__b__a2__c2__box1 i {
+  font-size: 20px;
+
+  color: #3b5998;
+}
+
+.homebox__col1__sec__b__a2__c2__box2 i {
+  font-size: 20px;
+
+  color: #333;
+}
+
+.homebox__col1__sec__b__a2__c2__box3 i {
+  font-size: 20px;
+
+  color: #e44d48;
+}
+
+.homebox__col1__sec__b__a2__c2__top2 {
+  width: 68px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 3px;
+
+  background-color: rgb(66, 209, 85);
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.homebox__col1__sec__b__a2__c2__top3 {
+  width: 68px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 3px;
+
+  background-color: rgb(248, 212, 71);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  box-shadow: 0.3px 0.3px 0.3px rgb(212, 212, 212);
+}
+
+.homebox__col1__sec__b__a2__c2__top4 {
+  width: 68px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 3px;
+
+  background-color: rgb(94, 214, 108);
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.homebox__col1__sec__b__a2__c2__top1__logo1 {
+  width: 45px;      
+  height: 45px;
+
+  image-rendering: url("img/homelogo1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col1__sec__b__a2__c2__top1__logo2 {
+  width: 45px;
+  height: 45px;
+
+  image-rendering: url("img/homelogo2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col1__sec__b__a2__c2__top1__logo3 {
+  width: 45px;
+  height: 45px;
+
+  image-rendering: url("img/homelogo3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.homebox__col1__sec__b__a2__c2__top1__logo4 {
+  width: 45px;
+  height: 45px;
+
+  image-rendering: url("img/homelogo4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col1__sec__b__a2__c2__box1 {
+  width: 68px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fff;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  box-shadow: 0.6px 0.6px 1px rgb(212, 212, 212);
+}
+
+.homebox__col1__sec__b__a2__c2__top1 p {
+  font-size: 12px;
+
+  color: #333;
+}
+
+.homebox__col1__sec__b__a2__c2__box1 p {
+  font-size: 12px;
+
+  color: #333;
+}
+
+.homebox__col1__sec li:nth-child(1) {
+  image-rendering: url("img/wow1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  animation-delay: 0s;
+}
+
+.homebox__col1__sec li:nth-child(2) {
+  image-rendering: url("img/wow2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  animation-delay: 10s;
+}
+.homebox__col1__sec li:nth-child(3) {
+  image-rendering: url("img/wow3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  animation-delay: 20s;
+}
+
+.homebox__col1__sec li:nth-child(4) {
+  image-rendering: url("img/wow4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  animation-delay: 30s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.homebox__col2 {
+  width: 100%;
+  height: 100vh;
+}
+
+.homebox__col2 img {
+  width: 100%;
+  height: 100%;
+
+  image-rendering: url("img/wow5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col3 {
+  width: 100%;
+  height: 110vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.homebox__col3__sec1,
+.homebox__col3__sec2 {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.homebox__col3__sec1__b1,
+.homebox__col3__sec1__b2,
+.homebox__col3__sec1__b3 {
+  width: 33.3333333333%;
+  height: 100%;
+}
+
+.homebox__col3__sec1__b1 img {
+  width: 100%;
+  height: 100%;
+
+  image-rendering: url("img/wow6.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col3__sec1__b1 :hover,
+.homebox__col3__sec1__b2 :hover,
+.homebox__col3__sec1__b3 :hover,
+.homebox__col3__sec2__b1 :hover,
+.homebox__col3__sec2__b2 :hover,
+.homebox__col3__sec2__b3 :hover {
+  border: 2px solid #fff;
+}
+
+.homebox__col3__sec1__b2 img {
+  width: 100%;
+  height: 100%;
+
+  image-rendering: url("img/wow7.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col3__sec1__b3 img {
+  width: 100%;
+  height: 100%;
+
+  image-rendering: url("img/wow8.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col3__sec2__b1,
+.homebox__col3__sec2__b2,
+.homebox__col3__sec2__b3 {
+  width: 33.3333333333%;
+  height: 100%;
+}
+
+.homebox__col3__sec2__b1 img {
+  width: 100%;
+  height: 100%;
+
+  image-rendering: url("img/wow10.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col3__sec2__b2 img {
+  width: 100%;
+  height: 100%;
+
+  image-rendering: url("img/wow9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col3__sec2__b3 img {
+  width: 100%;
+  height: 100%;
+
+  image-rendering: url("img/wow11.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col4 {
+  width: 100%;
+  height: 100vh;
+
+  margin-bottom: 10px;
+}
+
+.homebox__col4__sec {
+  width: 100%;
+  height: 100%;
+}
+
+.homebox__col4__sec img {
+  width: 100%;
+  height: 100%;
+
+  image-rendering: url("img/wow12.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col5 {
+  width: 100%;
+  height: 130vh;
+  background-color: indianred;
+}
+
+.homebox__col5__sec1,
+.homebox__col5__sec2 {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.homebox__col5__sec1__b1,
+.homebox__col5__sec1__b2,
+.homebox__col5__sec1__b3,
+.homebox__col5__sec2__b1,
+.homebox__col5__sec2__b2,
+.homebox__col5__sec2__b3 {
+  width: 33.3333333333%;
+  height: 100%;
+}
+
+.homebox__col5__sec1__b1 img {
+  width: 100%;
+  height: 100%;
+
+  image-rendering: url("img/wow13.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col5__sec1__b2 img {
+  width: 100%;
+  height: 100%;
+
+  image-rendering: url("img/wow14.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col5__sec1__b3 img {
+  width: 100%;
+  height: 100%;
+
+  image-rendering: url("img/wow15.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col5__sec2__b1 img {
+  width: 100%;
+  height: 100%;
+
+  image-rendering: url("img/wow16.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col5__sec2__b2 img {
+  width: 100%;
+  height: 100%;
+
+  image-rendering: url("img/wow17.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col5__sec2__b3 img {
+  width: 100%;
+  height: 100%;
+
+  image-rendering: url("img/wow18.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homebox__col5__sec1__b1 :hover,
+.homebox__col5__sec1__b2 :hover,
+.homebox__col5__sec1__b3 :hover,
+.homebox__col5__sec2__b1 :hover,
+.homebox__col5__sec2__b2 :hover,
+.homebox__col5__sec2__b3 :hover {
+  border: 2px solid #fff;
+}
+
+.text {
+  font-size: 16px;
+  color: blue;
+}
+
+@media (max-width: 768px) {
+  .homebox {
+    width: 100%;
+    height: 1700px;
+  }
+  .homebox__col1 {
+    width: 100%;
+    height: 0px;
+  }
+
+  .homebox__col2 {
+    width: 100%;
+    height: 300px;
+  }
+
+  .homebox__col3 {
+    width: 100%;
+    height: 500px;
+  }
+
+  .homebox__col4 {
+    width: 100%;
+    height: 400px;
+  }
+
+  .homebox__col5 {
+    width: 100%;
+    height: 500px;
+  }
+
+
+  .homebox__col1__sec__b__a2__c1__text p {
+    font-size: 10px;
+  }
+
+  .homebox__col1__sec__b__a2__c1__title p{
+    font-size: 25px;
+  }
+}

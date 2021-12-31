@@ -1,0 +1,20 @@
+extends ../../layouts/main.pug
+
+block content
+    div 
+        h1 TITLE: #{result.title}
+        h2 ANONYMOUSNAME: #{result.anonymousName}
+        h3 CONTENT: #{result.content}
+        h4 CREATEDAT: #{result.createdAt}
+        h5 ID: #{result.id}
+        
+        form(action="/free/update", method="get")
+            input(type="hidden" name="freeId" value=result.id)
+            input(type="submit" value="수정하기")
+
+        form(action="/free/delete", method="post")
+            input(type="hidden" name="freeId" value=result.id)
+            input(type="submit" value="삭제하기")
+
+        form(action="/free/list", method="get") 
+            input(type="submit", value="목록으로")

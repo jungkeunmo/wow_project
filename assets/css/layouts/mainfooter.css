@@ -1,0 +1,181 @@
+.mainfooter {
+  width: 100%;
+  height: 500px;
+
+  background-color: #222;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainfooter__box {
+  width: 1400px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.mainfooter__box__top {
+  width: 100%;
+  height: 340px;
+
+  display: flex;
+  flex-direction: row;
+
+  border-bottom: 2px solid #999;
+}
+
+.mainfooter__box__top__text1 {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.mainfooter__box__top__text1 h2 {
+  color: #fff;
+
+  font-size: 25px;
+
+  margin-bottom: 10px;
+
+  font-family: "PT Serif", serif;
+}
+
+.mainfooter__box__top__text1 p {
+  color: #999;
+
+  font-size: 19px;
+
+  margin: 4px 10px 4px 0px;
+
+  font-family: "Readex Pro", sans-serif;
+}
+
+.mainfooter__box__top__text2 {
+  width: 25%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.mainfooter__box__top__text2 h2 {
+  color: #fff;
+
+  font-size: 25px;
+
+  margin-bottom: 10px;
+
+  font-family: "PT Serif", serif;
+}
+
+.mainfooter__box__top__text2 p {
+  color: #999;
+
+  font-size: 19px;
+
+  margin-top: 8px;
+
+  font-family: "Readex Pro", sans-serif;
+}
+
+.mainfooter__box__top__text2 p:hover {
+    font-size: 20px;
+    transition: 0.3s;
+  
+    color: rgb(231, 139, 139);
+  }
+
+.mainfooter__box__top__text3 {
+  width: 25%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.mainfooter__box__top__text3 h2 {
+  color: #fff;
+
+  font-size: 25px;
+
+  margin-bottom: 10px;
+
+  font-family: "PT Serif", serif;
+}
+
+.mainfooter__box__top__text3 p {
+  color: #999;
+
+  font-size: 19px;
+
+  margin-top: 8px;
+
+  font-family: "Readex Pro", sans-serif;
+}
+
+.mainfooter__box__top__text3 p:hover {
+  font-size: 20px;
+  transition: 0.3s;
+
+  color: rgb(231, 139, 139);
+}
+
+.mainfooter__box__buttom {
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.mainfooter__box__buttom__text {
+  width: 50%;
+  height: 100%;
+}
+
+.mainfooter__box__buttom__text p {
+  margin-top: 25px;
+
+  font-size: 17px;
+  color: #999;
+}
+
+.mainfooter__box__buttom__icon {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.mainfooter__box__buttom__icon__ic {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 100%;
+  background-color: #333;
+
+  margin: 25px 5px 0px;
+}
+
+.mainfooter__box__buttom__icon__ic:hover {
+  background-color: rgb(223, 195, 195);;
+  transition: 0.5s;
+}
+
+.mainfooter__box__buttom__icon__ic i {
+  font-size: 20px;
+  color: #999;
+}

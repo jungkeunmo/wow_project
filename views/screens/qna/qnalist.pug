@@ -1,0 +1,34 @@
+extends ../../layouts/main.pug
+    
+block content
+    div.questiontop
+        a(href="/qna/qnalist")
+            p Q＆A 
+    div.questionlist    
+        a(href="/event/eventlist") 
+            p 이벤트
+        a(href="/free/list") 
+            p 자유게시판
+        a(href="/notice/noticelist") 
+            p 공지사항 
+        a(href="/board/questionlist") 
+            p 문의하기
+        a(href="/fqa/fqalist") 
+            p FQA               
+    div.questionBox
+        ul.questionBox__List
+            li 번호
+            li 제목
+            li 작성자
+            li 작성일
+        each b in qnaList
+            a(href=`/qna/qnadetail?bid=${b.id}`)
+                ul.questionBox__dataList
+                    li #{b.id}
+                    li #{b.title}
+                    li #{b.name}
+                    li #{b.createdAt}
+    div.questionbuttom                
+        if loggedIn 
+            a(href="/qna/qnacreate") 
+                button 글작성   

@@ -1,0 +1,222 @@
+.signupbody {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(310deg,#E0EAFC, 50%, #CFDEF3);
+}
+
+.signupbody__box {
+  width: 900px;
+  height: 450px;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: row;
+
+  box-shadow: 3px 3px 25px rgb(109, 109, 109);
+  border-radius: 5px;
+}
+
+.signupbody__box__col1 {
+  width: 30%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px 20px;
+}
+
+.signupbody__box__col1__sec1 {
+  width: 100%;
+  height: 5%;
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.signupbody__box__col1__sec1__title p {
+  font-size: 25px;
+}
+
+.signupbody__box__col1__sec2 {
+  width: 100%;
+  height: 95%;
+}
+
+.signupbody__box__col1__sec2__Form {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 25px;
+}
+
+.signupbody__box__col1__sec2__Form__box {
+  display: flex;
+  flex-direction: row;
+}
+
+.signupbody__box__col1__sec2__Form__box select{
+  width: 50px;
+  height: 20px;
+
+  border: none;
+  background: none;
+
+  background-color: rgb(245, 245, 245);
+  color: #999;
+}
+
+.signupbody__box__col1__sec2__Form__box i {
+  width: 30px;
+  height: 25px;
+
+  font-size: 14px;
+  margin: 10px 0px;
+
+  color: rgb(175, 175, 175);
+
+  padding: 5px;
+
+  border-bottom: 1px solid rgb(175, 175, 175);
+}
+.signupbody__box__col1__sec2__Form__gamil{
+  width: 10px;
+  height: 25px;
+
+  font-size: 14px;
+  margin: 10px 0px;
+
+  color: rgb(175, 175, 175);
+
+  padding: 5px;
+  border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.signupbody__box__col1__sec2__Form__box i:hover {
+  color: #777;
+}
+
+.signupbody__box__col1__sec2__Form__box__input {
+  width: 180px;
+  height: 25px;
+
+  font-size: 13px;
+  color: rgb(175, 175, 175);
+
+  border: none;
+  background: none;
+  outline: none;
+
+  border-bottom: 1px solid rgb(175, 175, 175);
+
+  margin: 10px 0px;
+
+  transition: 0.8s;
+}
+
+
+.signupbody__box__col1__sec2__Form__box__input:hover {
+  color: #777;
+}
+
+.signupbody__box__col1__sec2__Form__box__inputbirth {
+  width: 210px;
+  height: 25px;
+
+  font-size: 13px;
+  color: rgb(175, 175, 175);
+
+  border: none;
+  background: none;
+  outline: none;
+
+  border-bottom: 1px solid rgb(175, 175, 175);
+
+  margin: 10px 0px;
+
+  transition: 0.8s;
+}
+
+input.signupbody__box__col1__sec2__input:hover {
+  border-bottom: 1px solid #777;
+  color: #777;
+}
+
+input.signupbody__box__col1__sec2__submit {
+  margin-top: 20px;
+
+  width: 100px;
+  height: 40px;
+
+  font-size: 12px;
+
+  color: #fff;
+
+  background-color: #41434e;
+
+  border: none;
+  border-radius: 18px;
+}
+
+input.signupbody__box__col1__sec2__submit:hover {
+  border: 2px solid #41434e;
+  background-color: #fff;
+  color: #41434e;
+}
+
+.signupbody__box__col1__sec3 {
+  width: 100%;
+  height: 30%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.signupbody__box__col1__sec3__login1 {
+  margin-top: 35px;
+  width: 60%;
+  height: 50px;
+}
+
+.signupbody__box__col1__sec3__login2 {
+  margin-top: 35px;
+  width: 40%;
+  height: 50px;
+  padding: 0px 30px;
+}
+
+.signupbody__box__col1__sec3__login1 p,
+.signupbody__box__col1__sec3__login2 p {
+  font-size: 12px;
+  color: #41434e;
+}
+
+.signupbody__box__col2 {
+  width: 70%;
+  height: 100%;
+}
+
+.signupbody__box__col2__sec {
+  width: 100%;
+  height: 100%;
+}
+
+.signupbody__box__col2__sec img {
+  width: 100%;
+  height: 100%;
+
+  image-rendering: url("img/signup1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

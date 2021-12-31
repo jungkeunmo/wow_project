@@ -1,0 +1,62 @@
+extends ../layouts/base.pug
+
+block content
+    .naverwebtoon_header
+        .nwheader__weekdays     
+            a(href="naverwebtoonweekday") 
+                .nwheader__weekdays__font 요일별
+        .nwheader__endwebtoons
+            a(href="/naverendwebtoon") 
+                .nwheader__endwebtoons__font 완결웹툰
+
+
+    .naverwebtoondaylist   
+        ul.webtoonday
+            a(href="/mondaynaverwebtoons") 
+                li.mondaywebtoons 월요일 웹툰 
+            a(href="/tuesdaynaverwebtoons") 
+                li.tuesdaywebtoons 화요일 웹툰
+            a(href="/wednesdaynaverwebtoons") 
+                li.wednesdaywebtoons 수요일 웹툰
+            a(href="/thrursdaynaverwebtoons") 
+                li.thursdaywebtoons 목요일 웹툰
+            a(href="/fridaynaverwebtoons") 
+                li.fridaywebtoons 금요일 웹툰
+            a(href="/saturdaynaverwebtoons") 
+                li.saturdaywebtoons 토요일 웹툰
+            a(href="/sundaynaverwebtoons") 
+                li.sundaywebtoons 일요일 웹툰
+
+    .naverwebtoonweekday_main
+        .naverwebtoons 
+            .naverwebtoons_rowbox1
+                .naverwebtoons_picture_box1
+                    .picture_box_font1 쇼미더럭키짱
+                .naverwebtoons_picture_box2
+                    .picture_box_font2 참교육
+                .naverwebtoons_picture_box3
+                    .picture_box_font3 신의탑
+                .naverwebtoons_picture_box4
+                    .picture_box_font4 소녀의세계
+
+
+            .naverwebtoons_rowbox2
+                .naverwebtoons_rowbox2_picture_box1 
+                    .picture_box_font5 퀘스트지상주의
+                .naverwebtoons_rowbox2_picture_box2
+                    .picture_box_font6 장씨세가 호위무사
+                .naverwebtoons_rowbox2_picture_box3
+                    .picture_box_font7 백수세끼
+                .naverwebtoons_rowbox2_picture_box4
+                    .picture_box_font8 팔이피플
+            .naverwebtoons_rowbox3
+                .naverwebtoons_rowbox3_picture_box1 
+                    .picture_box_font9 앵무살수
+                .naverwebtoons_rowbox3_picture_box2 
+                    .picture_box_font10 2022 서브병에 빠지다
+                .naverwebtoons_rowbox3_picture_box3 
+                    .picture_box_font11 슈퍼캐스팅:BTS
+                .naverwebtoons_rowbox3_picture_box4 
+                    .picture_box_font12 잔불의 기사
+
+

@@ -1,0 +1,33 @@
+extends ../../layouts/main.pug
+
+block content
+    div.questiontop
+        a(href="/free/list") 
+            p 자유게시판
+    div.questionlist    
+        a(href="/board/questionlist") 
+            p 문의하기
+        a(href="/event/eventlist") 
+            p 이벤트
+        a(href="/notice/noticelist") 
+            p 공지사항 
+        a(href="/fqa/fqalist") 
+            p FQA  
+        a(href="/qna/qnalist") 
+            p Q＆A               
+    div.questionBox
+        ul.questionBox__List
+            li 번호
+            li 제목
+            li 작성자
+            li 작성일
+        each free in frees
+            a(action=`/free/detail?bid=${free.id}`)
+                ul.questionBox__dataList
+                    li #{free.id}
+                    li #{free.title}
+                    li #{free.anonymousName}
+                    li #{free.createdAt}
+    div.questionbuttom                
+        a(href="/free/create") 
+            button 글작성             

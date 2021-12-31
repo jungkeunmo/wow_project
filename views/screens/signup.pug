@@ -1,0 +1,39 @@
+extends ../layouts/base.pug
+
+block content
+    .signupbody
+        .signupbody__box
+            .signupbody__box__col1
+                .signupbody__box__col1__sec1
+                    .signupbody__box__col1__sec1__title
+                        a(href="/") 
+                            p WE OF WEBTOON
+                .signupbody__box__col1__sec2
+                    form.signupbody__box__col1__sec2__Form(action="/signup", method="POST")
+                        .signupbody__box__col1__sec2__Form__box
+                            input.signupbody__box__col1__sec2__Form__box__input(type="text" name="name" placeholder="Name..." requried) 
+                            i.fas.fa-font
+                        .signupbody__box__col1__sec2__Form__box
+                            input.signupbody__box__col1__sec2__Form__box__input(type="email" name="email" placeholder="Email..." requried) 
+                            i.fas.fa-user
+                        .signupbody__box__col1__sec2__Form__box    
+                            input.signupbody__box__col1__sec2__Form__box__input(type="password" name="password" placeholder="Password..." requried) 
+                            i.fas.fa-unlock-alt
+                        .signupbody__box__col1__sec2__Form__box
+                            input.signupbody__box__col1__sec2__Form__box__inputbirth(type="date" name="birth" placeholder="Birth..." requried) 
+                        .signupbody__box__col1__sec2__Form__box
+                            select(name="gender") 
+                                option(value="남성") 남성
+                                option(value="여성") 여성   
+                        .signupbody__box__col1__sec2__Form__box
+                            input.signupbody__box__col1__sec2__Form__box__input(type="number" name="phone_number" placeholder="Phone_number..." requried) 
+                            i.fas.fa-phone     
+                        input.signupbody__box__col1__sec2__submit(type="submit" value="SIGN UP")
+                    
+            .signupbody__box__col2
+                .signupbody__box__col2__sec
+                    a(href="/")  
+                        img(src="img/signup1.png") 
+                
+                
+                

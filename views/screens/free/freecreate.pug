@@ -1,0 +1,16 @@
+extends ../../layouts/main.pug
+
+block content
+    form(action="/free/create", method="POST")
+        div 
+            label(htmlFor="title") TITLE 
+            input(type="text" name="title" id="title" required)
+        div 
+            label(htmlFor="content") CONTENT
+            input(type="text" name="content" id="content" required)
+        div 
+            label(htmlFor="anonymousName") ANONYMOUSNAME
+            input(type="text" name="anonymousName" id="anonymousName" required)
+        input(type="submit" value="작성하기")
+    form(action="/free/list", method="get") 
+        input(type="submit" value="목록으로")

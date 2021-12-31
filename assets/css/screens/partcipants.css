@@ -1,0 +1,213 @@
+.all {
+  border-top: double #fff;
+  border-right: double #fff;
+  border-bottom: double #fff;
+  border-left: double #fff;
+}
+
+.top {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.top .top__p {
+  width: 5%;
+  height: 100%;
+  background-color: #222;
+}
+
+.top .top__p .icon {
+  width: 45px;
+  height: 45px;
+
+  border-radius: 100%;
+
+  background-color: #222;
+}
+
+.top .top__wow_project {
+  width: 90%;
+  height: 100%;
+  background-color: #222;
+  color: #fff;
+
+  font-size: 25px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.top .top__jjj {
+  width: 5%;
+  height: 100%;
+  background-color: #222;
+  color: #fff;
+}
+
+.partcipants {
+  border-top: double #fff;
+  border-bottom: double #fff;
+}
+
+.partcipants1 {
+  width: 100%;
+  height: 400px;
+
+  display: flex;
+  flex-direction: row;
+
+  border-bottom: double #fff;
+}
+
+.partcipants1 .partcipants1__good {
+  width: 25%;
+  height: 100%;
+  background-color: #222;
+  color: #fff;
+
+  font-size: 40px;
+  font-family: 'Nanum Gothic', sans-serif;
+
+  border-right: double #fff;
+}
+
+.partcipants1 .partcipants1__d {
+  width: 25%;
+  height: 100%;
+  background-color: #222;
+  color: #fff;
+
+  font-size: 23px;
+  font-family: 'Nanum Gothic', sans-serif;
+
+  border-right: double #fff;
+}
+
+.partcipants1 .partcipants1__m {
+  width: 25%;
+  height: 100%;
+  background-color: #222;
+  color: #fff;
+
+  font-size: 23px;
+  font-family: 'Nanum Gothic', sans-serif;
+
+  border-right: double #fff;
+}
+
+.partcipants1 .partcipants1__j {
+  width: 25%;
+  height: 100%;
+  background-color: #222;
+  color: #fff;
+
+  font-size: 23px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.partcipants2 {
+  width: 100%;
+  height: 400px;
+
+  display: flex;
+  flex-direction: row;
+
+  border-bottom: double #fff;
+}
+
+.partcipants2 .parctipants2__ggang {
+  width: 25%;
+  height: 100%;
+  background-color: #222;
+  color: #fff;
+
+  font-size: 23px;
+  font-family: 'Nanum Gothic', sans-serif;
+
+  border-right: double #fff;
+}
+
+.partcipants2 .partcipants2__g {
+  width: 25%;
+  height: 100%;
+  background-color: #222;
+  color: #fff;
+
+  font-size: 23px;
+  font-family: 'Nanum Gothic', sans-serif;
+
+  border-right: double #fff;
+}
+
+.partcipants2 .partcipants2__d {
+  width: 25%;
+  height: 100%;
+  background-color: #222;
+  color: #fff;
+
+  font-size: 23px;
+  font-family: 'Nanum Gothic', sans-serif;
+
+  border-right: double #fff;
+}
+
+.partcipants2 .partcipants2__o {
+  width: 25%;
+  height: 100%;
+  background-color: #222;
+  color: #fff;
+
+  font-size: 23px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.middlefooter {
+  width: 100%;
+  height: 180px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.middlefooter .middlefooter__views {
+  width: 100%;
+  height: 30px;
+  background-color: #222;
+  color: #fff;
+}
+
+.middlefooter .middlefooter__user {
+  width: 100%;
+  height: 30px;
+  background-color: #222;
+  color: #fff;
+}
+
+.middlefooter .middlefooter__likes {
+  width: 100%;
+  height: 30px;
+  background-color: #222;
+  color: #fff;
+}
+
+.middlefooter .middlefooter__chat {
+  width: 100%;
+  height: 30px;
+  background-color: #222;
+  color: #fff;
+}
+
+.middlefooter .middlefooter__chat1 {
+  width: 100%;
+  height: 30px;
+  background-color: #222;
+  color: #fff;
+}
+
+.middlefooter .middlefooter__chat2 {
+  width: 100%;
+  height: 30px;
+  background-color: #222;
+  color: #fff;
+}

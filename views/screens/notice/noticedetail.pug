@@ -1,0 +1,24 @@
+extends ../../laouts/base.pug
+
+block content
+    div.questiondetailBox
+        div.questiondetailBox__img
+            a(href="/")
+                button home 
+            h1 #{bData.title}  
+            h2 작성자: #{bData.name} | 작성일: #{bData.createdAt}
+        div.questiondetailBox__text
+            h4 #{bData.content}
+        div.questiondetailBox__button
+            a.qdbtn1(href="/notice/noticelist")  
+                button 돌아가기
+            a.qdbtn2(href="/notice/noticecreate")  
+                button 작성하기
+            form(action=`/notice/noticeupdate?bid=${bDataId}`, method="post") 
+                input(type="hidden" name="bDataid" value=bData.id)
+                input(type="hidden" name="bDatatitle" value=bData.title)
+                input(type="hidden" name="bDatacontent" value=bData.content)
+                input(type="submit", value="수정하기")
+            form(action="/notice/noticedelete", method="post") 
+                input(type="hidden" name="bDataId" value=bData.id)
+                input(type="submit", value="삭제하기") 

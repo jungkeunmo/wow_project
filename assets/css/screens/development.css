@@ -1,0 +1,106 @@
+.devBox {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+
+    padding: 0px 90px;
+}
+
+.devBox__col1 {
+    width: 100%;
+    height: 500px;
+    background-image: url("https://media.istockphoto.com/photos/paint-on-canvas-coloured-sections-with-bright-shades-picture-id1282500710?b=1&k=20&m=1282500710&s=170667a&w=0&h=JuBCl40zOvbQ6SJhLJVYiPMvP5iRGhT-HEeJr9kwvUk=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.devBox__col2 {
+    width: 100%;
+    height: 170px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.devBox__col3 {
+    width: 100%;
+    height: 405px;
+    background-color: aquamarine;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.devBox__col4 {
+    width: 100%;
+    height: 230px;
+
+    background-color: rgb(76, 116, 102);
+
+    padding-bottom: 40px;
+}
+
+.devBox__col5 {
+    width: 100%;
+    height: 220px;
+
+    background-color: blue;
+}
+
+.devBox__col6 {
+    width: 100%;
+    height: 405px;
+    background-color: brown;
+
+    margin-bottom: 60px;
+}
+
+.devBox__col7 {
+    width: 100%;
+    height: 130px;
+    background-color: burlywood;
+}
+
+.devBox__col8 {
+    width: 100%;
+    height: 500px;
+    background-color: brown;
+}
+
+.devBox__col9 {
+    width: 100%;
+    height: 530px;
+
+    margin-bottom: 110px;
+    background-color: darkkhaki;
+}
+
+.devBox__col10 {
+    width: 100%;
+    height: 130px;
+    background-color: darkgrey;
+}
+
+.devBox__col11 {
+    width: 100%;
+    height: 300px;
+    background-color: darkgreen;
+}
+
+.devBox__col12 {
+    width: 100%;
+    height: 300px;
+    background-color: cornflowerblue;
+}
+
+.devBox__col13 {
+    width: 100%;
+    height: 300px;
+    background-color: cadetblue;
+}

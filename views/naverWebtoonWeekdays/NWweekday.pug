@@ -1,0 +1,38 @@
+extends ../layouts/base.pug
+
+block content
+    .naverwebtoon_header
+        .nwheader__weekdays     
+            a(href="naverwebtoonweekday") 
+                .nwheader__weekdays__font 요일별
+        .nwheader__endwebtoons
+            a(href="/naverendwebtoon") 
+                .nwheader__endwebtoons__font 완결웹툰
+
+
+
+
+    .naverwebtoondaylist   
+        ul.webtoonday
+            a(href="/mondaynaverwebtoons") 
+                li.mondaywebtoons 월요일 웹툰 
+            a(href="/tuesdaynaverwebtoons") 
+                li.tuesdaywebtoons 화요일 웹툰
+            a(href="/wednesdaynaverwebtoons") 
+                li.wednesdaywebtoons 수요일 웹툰
+            a(href="/thrursdaynaverwebtoons") 
+                li.thursdaywebtoons 목요일 웹툰
+            a(href="/fridaynaverwebtoons") 
+                li.fridaywebtoons 금요일 웹툰
+            a(href="/saturdaynaverwebtoons") 
+                li.saturdaywebtoons 토요일 웹툰
+            a(href="/sundaynaverwebtoons") 
+                li.sundaywebtoons 일요일 웹툰
+
+
+
+
+
+
+    .naverwebtoonweekday_main
+        

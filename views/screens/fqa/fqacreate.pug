@@ -1,0 +1,13 @@
+extends ../../layouts/main.pug
+
+block content
+    div.questioncreateBox
+        form(action="/fqa/fqacreate" method="POST")
+            div.questioncreateBox__title
+                input(type="text" name="input_title" placeholder="제목") 
+            div.questioncreateBox__text
+                textarea(name="input_content" placeholder="내용은 1000자 까지......") 
+            div.questioncreateBox__button     
+                input(type="submit" value="작성하기")
+        a(href="/fqa/fqalist")
+            button 돌아가기     

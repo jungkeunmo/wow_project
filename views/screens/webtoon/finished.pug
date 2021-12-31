@@ -1,0 +1,21 @@
+extends ../../layouts/basic.pug
+
+
+block content
+    each finishedWebtoon in finishedWebtoons
+        section.wholeFinishedWebtoon
+            main.main
+                section.content
+                    div.webtoonBox
+                        div.webtoonBox__top
+                            div.poster
+                        div.webtoonBox__bottom
+                            article.mr__title 웹툰 번호:---#{finishedWebtoon.id}
+                            article.mr__title #{finishedWebtoon.title}
+                            article.mr__score #{finishedWebtoon.score}
+                            article.mr__episode #{finishedWebtoon.being}
+                            article.mr__episode #{finishedWebtoon.publish}
+
+
+
+            

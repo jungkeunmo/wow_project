@@ -1,0 +1,20 @@
+extends ../../layouts/basic.pug
+
+
+block content
+    each kakaoPage in kakaoPages
+        section.wholeFinishedWebtoon
+            main.main
+                section.content
+                    div.webtoonBox
+                        div.webtoonBox__top
+                            div.poster
+                        div.webtoonBox__bottom
+                            article.mr__title 웹툰 번호:---#{kakaoPage.id}
+                            article.mr__title #{kakaoPage.title}
+                            article.mr__score #{kakaoPage.score}
+                            article.mr__episode #{kakaoPage.being}
+                            article.mr__episode #{kakaoPage.publish}
+                            article.mr__episode #{kakaoPage.days}
+
+            

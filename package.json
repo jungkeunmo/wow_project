@@ -1,0 +1,31 @@
+{
+  "name": "wow_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production nodemon --exec node app.js",
+    "dev": "NODE_ENV=develop nodemon --exec node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NANANA0506/wow_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NANANA0506/wow_project/issues"
+  },
+  "homepage": "https://github.com/NANANA0506/wow_project#readme",
+  "description": ""
+}

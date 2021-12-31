@@ -1,0 +1,20 @@
+extends ../../layouts/base.pug
+
+block content
+    div.questiondetailBox
+        div.questiondetailBox__img
+            a(href="/")
+                button home 
+            h1 #{bData.title}  
+            h2 작성자: #{bData.name} | 작성일: #{bData.createdAt}
+        div.questiondetailBox__text
+            h4 #{bData.content}
+        div.questiondetailBox__button
+            a.qdbtn1(href="/event/eventlist")  
+                button 돌아가기
+            a.qdbtn2(href="/event/eventcreate")  
+                button 작성하기   
+            form(action="/event/eventdelete", method="post") 
+                input(type="hidden" name="bDataId" value=bData.id)
+                input(type="submit", value="삭제하기") 
+        

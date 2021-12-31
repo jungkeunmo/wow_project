@@ -1,0 +1,82 @@
+.day {
+    width: 100%;
+    height: 50px;
+
+    font-size: 45px;
+
+    background-color: ivory;
+}
+
+.day2 {
+    width: 100%;
+    height: 8000px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.day__mon {
+    width: 14%;
+    height: 100%;
+    background-color: ivory;
+
+    font-size: 35px;
+}
+
+.day__tue {
+    width: 14%;
+    height: 100%;
+    background-color: ivory;
+
+    font-size: 35px;
+}
+
+.day__wed {
+    width: 14%;
+    height: 100%;
+    background-color: ivory;
+
+    font-size: 35px;
+}
+
+.day__thu {
+    width: 14%;
+    height: 100%;
+    background-color: ivory;
+
+    font-size: 35px;
+}
+
+.day__fri {
+    width: 14%;
+    height: 100%;
+    background-color: ivory;
+
+    font-size: 35px;
+}
+
+.day__sat {
+    width: 14%;
+    height: 100%;
+    background-color: ivory;
+
+    font-size: 35px;
+}
+
+.day__sun {
+    width: 14%;
+    height: 100%;
+    background-color: ivory;
+
+    font-size: 35px;
+}
+
+.ing {
+    width: 100%;
+    height: 300px;
+}
+
+.finish {
+    width: 100%;
+    height: 300px;
+}

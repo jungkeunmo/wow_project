@@ -1,0 +1,204 @@
+.naverwebtoon_header{
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.naverwebtoon_header .nwheader__weekdays{
+    width: 25%;
+    height: 70px;
+
+    color: blue;
+
+    border-bottom: 3px solid blue;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.naverwebtoon_header .nwheader__weekdays .nwheader__weekdays__font{
+    width: 100%;
+    cursor: pointer;
+}
+
+.naverwebtoon_header .nwheader__endwebtoons{
+    width: 25%;
+    height: 70px;
+    border-bottom: 3px solid grey;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.naverwebtoon_header .nwheader__endwebtoons .nwheader__endwebtoons__font{
+    width: 100%;
+    cursor: pointer;
+}
+.naverwebtoon_header .nwheader__webtoons{
+    width: 25%;
+    height: 70px;
+    border-bottom: 3px solid grey;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.naverwebtoon_header .nwheader__webtoons .nwheader__webtoons__font{
+    width: 100%;
+    cursor: pointer;
+}
+.naverwebtoon_header .nwheader__writers{
+    width: 25%;
+    height: 70px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 3px solid grey;
+
+
+}
+.naverwebtoon_header .nwheader__writers .nwheader__writers__font{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+.naverwebtoondaylist{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.webtoonday {
+    width: 77%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 20px;
+}
+
+.webtoonday a{
+    width: 77%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+
+    border-left: gray 2px solid;
+    border-bottom: grey 2px solid;
+    border-right: grey 2px solid;
+    border-top: grey 2px solid;
+
+    margin: 0px 10px;
+
+    font-weight: 600;
+
+}
+
+
+
+.mondaywebtoons {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.tuesdaywebtoons {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.wednesdaywebtoons {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.thursdaywebtoons {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fridaywebtoons {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.saturdaywebtoons {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sundaywebtoons {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.naverwebtoonweekday_main {
+    width: 100%;
+    height: 1200px;
+
+    margin-top: 20px;
+}

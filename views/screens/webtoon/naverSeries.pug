@@ -1,0 +1,22 @@
+extends ../../layouts/basic.pug
+
+
+block content
+    each naverSerie in naverSeries
+        section.wholeFinishedWebtoon
+            main.main
+                section.content
+                    div.webtoonBox
+                        div.webtoonBox__top
+                            div.poster
+                        div.webtoonBox__bottom
+                            article.mr__title 웹툰 번호:---#{naverSerie.id}
+                            article.mr__title #{naverSerie.title}
+                            article.mr__score #{naverSerie.score}
+                            article.mr__episode #{naverSerie.being}
+                            article.mr__episode #{naverSerie.publish}
+                            article.mr__episode #{naverSerie.days}
+
+
+
+            

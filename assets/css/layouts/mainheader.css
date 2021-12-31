@@ -1,0 +1,50 @@
+header {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/474x/e0/87/c6/e087c61ad0682c9fa4c8a9d1ba7d6834.jpg");
+  text-align: center;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+}
+
+header .mainheader {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+}
+
+.mainheader h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 80px;
+  margin-bottom: 30px;
+  margin-top: 150px;
+  color: #fff;
+}
+
+.mainheader h3,
+.mainheader p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.mainheader button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #333;
+  background: #fff;
+  margin-bottom: 50px;
+  box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}

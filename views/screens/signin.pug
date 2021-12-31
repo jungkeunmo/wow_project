@@ -1,0 +1,34 @@
+extends ../layouts/base.pug
+
+block content
+    .siginbody
+        .siginbody__box
+            .siginbody__box__col1
+                .siginbody__box__col1__sec1
+                    .siginbody__box__col1__sec1__title
+                        a(href="/") 
+                            p WE OF WEBTOON
+                .siginbody__box__col1__sec2
+                    form.siginbody__box__col1__sec2__Form(action="/signin", method="POST")
+                        .siginbody__box__col1__sec2__Form__box
+                            input.siginbody__box__col1__sec2__Form__box__input(type="email" name="signinEmail" placeholder="Email...") 
+                            i.fas.fa-user
+                        .siginbody__box__col1__sec2__Form__box    
+                            input.siginbody__box__col1__sec2__Form__box__input(type="password" name="signinPassword" placeholder="Password...") 
+                            i.fas.fa-unlock-alt
+                        input.siginbody__box__col1__sec2__submit(type="submit" value="LOGIN IN")
+                .siginbody__box__col1__sec3
+                    .siginbody__box__col1__sec3__login1
+                        a(href="/") 
+                            p Forget Password?
+                    .siginbody__box__col1__sec3__login2
+                        a(href="/termsofuse")  
+                            p signup
+            .siginbody__box__col2
+                .siginbody__box__col2__sec
+                    a(href="/")  
+                        img(src="img/signin1.png")
+
+                
+                
+                

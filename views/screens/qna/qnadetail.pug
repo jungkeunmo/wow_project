@@ -1,0 +1,20 @@
+extends ../../layouts/base.pug
+
+block content
+    div.questiondetailBox
+        div.questiondetailBox__img
+            a(href="/")
+                button home 
+            h1 #{qna.title}  
+            h2 작성자: #{qna.name} | 작성일: #{qna.createdAt}
+        div.questiondetailBox__text
+            h4 #{qna.content}
+        div.questiondetailBox__button
+            a.qdbtn1(href="/qna/qnalist")  
+                button 돌아가기
+            a.qdbtn2(href="/qna/qnacreate")  
+                button 작성하기   
+            form(action="/qna/qnadelete", method="post") 
+                input(type="hidden" name="bDataId" value=qna.id)
+                input(type="submit", value="삭제하기") 
+        

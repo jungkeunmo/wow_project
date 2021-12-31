@@ -1,0 +1,13 @@
+extends ../../layouts/main.pug
+
+block content
+    form(action="/board/questionupdate" method="post") 
+
+        div
+            label(htmlFor="title") TITLE 
+            input(type="text" name="bDatatitle" id="title" required)
+        div 
+            label(htmlFor="content") CONTENT 
+            input(type="text" name="bDatacontent" id="content" required)
+            input(type="hidden" name="bDataId" value=bDataId)
+        input(type="submit", value="수정하기")

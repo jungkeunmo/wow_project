@@ -1,0 +1,36 @@
+extends ../../layouts/basic.pug
+
+
+block content
+    form(action="/webtoon/webtooncreate", method="POST")
+        input(type="text" name="title" required)
+        
+        select(name="score")
+            option(value="1") 1점   
+            option(value="2") 2점   
+            option(value="3") 3점   
+            option(value="4") 4점   
+            option(value="5" selected) 5점 
+
+        textarea(name="Introduction" required) 
+
+        select(name="being")
+            option(value="연재") 연재  
+            option(value="완결" required) 완결
+
+        select(name="publish")
+            option(value="네이버시리즈") 네이버시리즈  
+            option(value="네이버웹툰") 네이버웹툰
+            option(value="카카오웹툰") 카카오웹툰
+            option(value="카카오페이지" required) 카카오페이지 
+
+        select(name="days")
+            option(value="월요일") 월요일  
+            option(value="화요일") 화요일
+            option(value="수요일") 수요일
+            option(value="목요일") 목요일
+            option(value="토요일") 토요일  
+            option(value="일요일") 일요일 
+            option(value="10일") 10일 
+            option(value="한달" required) 한달
+        input(type="submit" value="작성")

@@ -1,0 +1,280 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nanum Myeongjo", serif;
+  font-family: "PT Mono", monospace;
+}
+
+.footer {
+  width: 100%;
+  height: 80vh;
+
+  background-color: #222;
+}
+
+.footer__col1 {
+  width: 100%;
+  height: 40%;
+  border-bottom: 5px solid #000;
+}
+
+.footer__col1__sec1 {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.footer__col1__sec1 img {
+  width: 250px;
+  height: 80px;
+  image-rendering: url("img/title.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.footer__col1__sec2 {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__col1__sec2__text1,
+.footer__col1__sec2__text2,
+.footer__col1__sec2__text3,
+.footer__col1__sec2__text4 {
+  width: 13%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  font-size: 17px;
+  color: #fff;
+}
+
+.footer__col1__sec2__text1:hover,
+.footer__col1__sec2__text2:hover,
+.footer__col1__sec2__text3:hover,
+.footer__col1__sec2__text4:hover {
+  font-size: 19px;
+
+  transition: 0.3s;
+
+  color: rgb(231, 139, 139);
+}
+
+.footer__col2 {
+  width: 100%;
+  height: 60%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__col2__sec1 {
+  width: 100%;
+  height: 30%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__col2__sec1__text {
+  width: 12%;
+  height: 100%;
+
+  font-size: 17px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  color: #fff;
+}
+
+.footer__col2__sec1__text :hover {
+  font-size: 18px;
+  transition: 0.3s;
+
+  color: rgb(231, 139, 139);
+}
+
+.footer__col2__sec2 {
+  width: 100%;
+  height: 30%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__col2__sec2__icon {
+  width: 85px;
+  height: 85px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 100%;
+  border: 5px solid #000;
+
+  margin: 0px 8px;
+}
+
+.footer__col2__sec2__icon :hover {
+  width: 85px;
+  height: 85px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition: 0.4s;
+
+  border-radius: 100%;
+
+  border: 5px solid rgb(231, 139, 139);
+
+  margin: -4px -4px;
+}
+
+.footer__col2__sec2__icon i {
+  font-size: 25px;
+  color: #fff;
+}
+
+.footer__col2__sec2__icon i:hover {
+  font-size: 27px;
+  color: rgb(231, 139, 139);
+}
+
+.footer__col2__sec3 {
+  width: 100%;
+  height: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 25px 0px;
+}
+
+.footer__col2__sec3__text1 {
+  width: 100%;
+  height: 20%;
+
+  padding: 0px 80px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__col2__sec3__text1 p {
+  width: 500px;
+  height: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 16px;
+  color: #999;
+}
+
+.footer__col2__sec3__text2 {
+  width: 100%;
+  height: 20%;
+
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__col2__sec3__text2 p {
+  width: 500px;
+  height: 25px;
+  padding: 0px 10px;
+
+  font-size: 16px;
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    width: 100%;
+    height: 500px;
+  
+    background-color: #222;
+  }
+
+  .footer__col1__sec1 {
+    width: 100%;
+    height: 100px;
+  }
+
+  .footer__col1__sec2__text1,
+  .footer__col1__sec2__text2 ,
+  .footer__col1__sec2__text3 ,
+  .footer__col1__sec2__text4  {
+    font-size: 10px;
+  }
+
+  .footer__col2__sec1__text {
+    font-size: 10px;
+  }
+
+  .footer__col2__sec2__icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer__col2__sec2__icon:hover {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer__col2__sec2__icon i{
+    font-size: 17px;
+  }
+
+  .footer__col2__sec2__icon i:hover{
+    font-size: 17px;
+  }
+
+  .footer__col2__sec3__text1  p{
+    font-size: 12px;
+  }
+
+  .footer__col2__sec3__text2 p {
+    font-size: 12px;
+  }
+}
